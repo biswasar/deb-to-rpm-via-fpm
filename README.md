@@ -78,6 +78,12 @@ Resulting file will look like: `yourapp-x.y.z-1.x86_64.rpm`.
 
 ## 📥 Install the RPM
 
+First change into the directory where the original file is downloaded, with `cd`:
+```bash
+cd your file directory
+```
+
+Then install with:
 ```bash
 sudo dnf install -y --nogpgcheck ./yourapp-x.y.z-1.x86_64.rpm
 ```
